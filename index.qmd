@@ -1,6 +1,6 @@
 ---
-title: "Department 999: Generic Class"
-subtitle: "UC Berkeley, Spring 2024"
+title: "Statistics 210b: Advanced Theory of Statistics"
+subtitle: "UC Berkeley, Spring 2025"
 listing:
   - id: buttons
     template: assets/buttons.ejs
