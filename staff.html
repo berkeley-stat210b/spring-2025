@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Statistics 210b: Theory of Statistics</title>
+<title>Staff</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-buttons .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-button','listing-link','listing-color',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-button","listing-link","listing-color"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-buttons'] = new List('listing-buttons', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -140,7 +80,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./staff.html">Staff</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -170,8 +110,20 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./staff.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Staff</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -185,27 +137,15 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
-  <li><a href="#announcement" id="toc-announcement" class="nav-link" data-scroll-target="#announcement">Announcement</a></li>
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a></li>
-  <li><a href="#syllabus" id="toc-syllabus" class="nav-link" data-scroll-target="#syllabus">Syllabus</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Statistics 210b: Theory of Statistics</h1>
-<p class="subtitle lead">UC Berkeley, Spring 2025</p>
+<h1 class="title">Staff</h1>
 </div>
 
 
@@ -222,106 +162,24 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-buttons" class="quarto-listing quarto-listing-container-custom">
-
-  <button style="background-color: purple;"><a href="https://edstem.org/us/join/PyDUgd" target="_blank">Ed</a></button>
-
-  <button style="background-color: blue;"><a href="https://bcourses.berkeley.edu/courses/1542128/" target="_blank">bCourses</a></button>
-
-  <button style="background-color: red;"><a href="https://www.gradescope.com/courses/953916" target="_blank">Gradescope</a></button>
-
-<div class="listing-no-matching d-none">
-No matching items
+<p>Office hours are subject to change.</p>
+<hr>
+<div class="grid">
+<div class="g-col-4">
+<p><strong>Instructor:</strong> <a href="https://statistics.berkeley.edu" target="_blank">Person X</a><br> <code>x@berkeley.edu</code><br> Office hours: <br> - Thursday 3pm-5pm, Evans 309 <br> - Friday 2:00pm-4:30pm, Evans 309<br></p>
+</div>
+<div class="g-col-4">
+<p><strong>GSI</strong>: <a href="http://statistics.berkeley.edu" target="_blank">Person Y</a><br> <code>y@berkeley.edu</code><br> Office hours:<br> - Monday 11am-12pm, Evans 432<br> - Tuesday 4pm-5pm, Evans 432<br> - Wednesday 2pm-3pm, Evans 432<br> - Friday 12pm-1pm, Evans 432</p>
+</div>
+<div class="g-col-4">
+<p><strong>Tutor:</strong> Person Z<br> <code>z@berkeley.edu</code><br> Office hours: <br> - Wednesday 2:30pm - 4:30pm, Evans 434<br> - Sunday 2pm - 6pm, <a href="https://berkeley.zoom.us/j/99887452083?pwd=T1pXWC9HZFpTRHQzc1MrOElUakFUdz09">Zoom</a></p>
+</div>
+<div class="g-col-4">
+<p><strong>Tutor</strong>: Person W<br> <code>w@berkeley.edu</code><br> Office hours: <br> - Wednesday 10am-2pm, Evans 432<br> - Thursday 3-5pm, Evans 434</p>
 </div>
 </div>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<ul>
-<li>
-Instructor: Song Mei (songmei [at] berkeley.edu)
-</li>
-<li>
-Lectures: Tuesday/Thursday 11:00 am - 12:30 am. Evans 334.
-</li>
-<li>
-Office Hours: Tuesday 1:30 pm - 3:00 pm. Evans 387.
-</li>
-<li>
-GSI: Kaihao Jing (khjing [at] berkeley.edu)
-</li>
-<li>
-Office Hours: TBA.
-</li>
-<li>
-Discussion sessions: Every other week. Time and location TBA.
-</li>
-</ul>
-<p>This is an advanced graduate course on mathematical statistics, following up on the introductory course STAT 210A. Topics to be covered include tail bounds and basic aspects of concentration of measure, uniform laws of large number, metric entropy and chaining arguments, Gaussian comparison inequalities, covariance estimation and non-asymptotic random matrix theory, sparse high-dimensional models, structured forms of principal component analysis, non-parametric regression, and minimax lower bounds.</p>
-</section>
-<section id="announcement" class="level2">
-<h2 class="anchored" data-anchor-id="announcement">Announcement</h2>
-<ol>
-<li>
-First class: Jan 21, 2025 (Tuesday).
-</li>
-<li>
-I will process the CE students during the week of Jan 20. It may take 1-2 weeks to get you enrolled.
-</li>
-<li>
-We will use Ed (https://edstem.org/us/courses/73735/discussion) for discussions and questions. Use this link (https://edstem.org/us/join/PyDUgd) to join.
-</li>
-<li>
-Please submit HW using Gradescope (https://www.gradescope.com/courses/953916, code: WW73Y5).
-</li>
-<li>
-Please find homework and lecture notes on bCourse (https://bcourses.berkeley.edu/courses/1542128/) under “Files”.
-</li>
-<li>
-(It is not sure yet if there is Course Capture system in Evans 334) The lectures will be recorded through Course Capture. The recordings can be found on bCourse under “Media Gallery”.
-</li>
-</ol>
-</section>
-<section id="grading" class="level2">
-<h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<ul>
-<li>
-Class attendance is required.
-</li>
-<li>
-Homework per two weeks. There will be 5-6 HWs.
-</li>
-<li>
-In class mid-term: TBA.
-</li>
-<li>
-Final exam date: Thursday, May 15, 2025. 8–11 am.
-</li>
-<li>
-Final grade will be Homework x 35 % + mid-term x 25 % + final x 40 %.
-</li>
-<li>
-HW policy: There are in total three late days that you can use without penalty towards grade throughout the semester. After that, there will be a 10% deduction on grades of a HW for each late day. The least grade can be dropped counting towards total grades.
-</li>
-</ul>
-</section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>All students should have taken STAT 210A or an equivalent course in basic mathematical statistics, and must have a strong background in probability and real analysis. This course requires some degree of mathematical maturity.</p>
-</section>
-<section id="topics" class="level2">
-<h2 class="anchored" data-anchor-id="topics">Topics</h2>
-<p>Concentration inequalities, empirical process theory, random matrix theory, sparse high-dimensional models, non-parametric regression, and minimax lower bounds.</p>
-<!---
-For a style similar to that of [Stat 20](https://stat20.org), modify `index.qmd` to point to `assets/{schedule-alt.ejs,buttons-alt.ejs}` and to `{schedule-alt.yml,buttons-alt.yml}` and `_quarto.yml` to point to `assets/styles-alt.scss`.
--->
-</section>
-<section id="syllabus" class="level2">
-<h2 class="anchored" data-anchor-id="syllabus">Syllabus</h2>
-<p>Syllabus can be found here (https://github.com/berkeley-stat210b/spring-2025/blob/main/Syllabus_STAT210B_Spring2025.pdf).</p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -416,7 +274,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/berkeley-stat210b\.github\.io\/spring-2025\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
