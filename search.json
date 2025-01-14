@@ -10,41 +10,61 @@
     ]
   },
   {
-    "objectID": "staff.html",
-    "href": "staff.html",
-    "title": "Staff",
-    "section": "",
-    "text": "Office hours are subject to change.\n\n\n\nInstructor: Person X x@berkeley.edu Office hours:  - Thursday 3pm-5pm, Evans 309  - Friday 2:00pm-4:30pm, Evans 309\n\n\nGSI: Person Y y@berkeley.edu Office hours: - Monday 11am-12pm, Evans 432 - Tuesday 4pm-5pm, Evans 432 - Wednesday 2pm-3pm, Evans 432 - Friday 12pm-1pm, Evans 432\n\n\nTutor: Person Z z@berkeley.edu Office hours:  - Wednesday 2:30pm - 4:30pm, Evans 434 - Sunday 2pm - 6pm, Zoom\n\n\nTutor: Person W w@berkeley.edu Office hours:  - Wednesday 10am-2pm, Evans 432 - Thursday 3-5pm, Evans 434",
-    "crumbs": [
-      "Staff"
-    ]
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Jump to:",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#about-stat-210b",
-    "href": "syllabus.html#about-stat-210b",
-    "title": "Syllabus",
-    "section": "About Stat 210b",
-    "text": "About Stat 210b\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.\n\nGoals\n\nGoal 1\nGoal 2\nGoal 3\n\n\n\nPrerequisites\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Statistics 210b: Advanced Theory of Statistics",
+    "title": "Statistics 210b: Theory of Statistics",
     "section": "",
-    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\n  bCourses\n\n\nNo matching items\n\n\nTest test",
+    "text": "Ed\n\n  bCourses\n\n  Gradescope\n\n\nNo matching items",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "Statistics 210b: Theory of Statistics",
+    "section": "Description",
+    "text": "Description\n\n\nInstructor: Song Mei (songmei [at] berkeley.edu)\n\n\nLectures: Tuesday/Thursday 11:00 am - 12:30 am. Evans 334.\n\n\nOffice Hours: Tuesday 1:30 pm - 3:00 pm. Evans 387.\n\n\nGSI: Kaihao Jing (khjing [at] berkeley.edu)\n\n\nOffice Hours: TBA.\n\n\nDiscussion sessions: Every other week. Time and location TBA.\n\n\nThis is an advanced graduate course on mathematical statistics, following up on the introductory course STAT 210A. Topics to be covered include tail bounds and basic aspects of concentration of measure, uniform laws of large number, metric entropy and chaining arguments, Gaussian comparison inequalities, covariance estimation and non-asymptotic random matrix theory, sparse high-dimensional models, structured forms of principal component analysis, non-parametric regression, and minimax lower bounds.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#announcement",
+    "href": "index.html#announcement",
+    "title": "Statistics 210b: Theory of Statistics",
+    "section": "Announcement",
+    "text": "Announcement\n\n\nFirst class: Jan 21, 2025 (Tuesday).\n\n\nI will process the CE students during the week of Jan 20. It may take 1-2 weeks to get you enrolled.\n\n\nWe will use Ed (https://edstem.org/us/courses/73735/discussion) for discussions and questions. Use this link (https://edstem.org/us/join/PyDUgd) to join.\n\n\nPlease submit HW using Gradescope (https://www.gradescope.com/courses/953916, code: WW73Y5).\n\n\nPlease find homework and lecture notes on bCourse (https://bcourses.berkeley.edu/courses/1542128/) under “Files”.\n\n\n(It is not sure yet if there is Course Capture system in Evans 334) The lectures will be recorded through Course Capture. The recordings can be found on bCourse under “Media Gallery”.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#grading",
+    "href": "index.html#grading",
+    "title": "Statistics 210b: Theory of Statistics",
+    "section": "Grading",
+    "text": "Grading\n\n\nClass attendance is required.\n\n\nHomework per two weeks. There will be 5-6 HWs.\n\n\nIn class mid-term: TBA.\n\n\nFinal exam date: Thursday, May 15, 2025. 8–11 am.\n\n\nFinal grade will be Homework x 35 % + mid-term x 25 % + final x 40 %.\n\n\nHW policy: There are in total three late days that you can use without penalty towards grade throughout the semester. After that, there will be a 10% deduction on grades of a HW for each late day. The least grade can be dropped counting towards total grades.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Statistics 210b: Theory of Statistics",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nAll students should have taken STAT 210A or an equivalent course in basic mathematical statistics, and must have a strong background in probability and real analysis. This course requires some degree of mathematical maturity.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#topics",
+    "href": "index.html#topics",
+    "title": "Statistics 210b: Theory of Statistics",
+    "section": "Topics",
+    "text": "Topics\nConcentration inequalities, empirical process theory, random matrix theory, sparse high-dimensional models, non-parametric regression, and minimax lower bounds.",
     "crumbs": [
       "Home"
     ]
