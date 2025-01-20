@@ -16,7 +16,7 @@ listing:
 <li> Lectures: Tuesday/Thursday 11:00 am - 12:30 am. Evans 334. </li>
 <li> Office Hours: Tuesday 1:30 pm - 3:00 pm. Evans 387. </li>
 <li> GSI: Kaihao Jing (khjing [at] berkeley.edu) </li>
-<li> Office Hours: TBA. </li>
+<li> Office Hours: Monday 2:30 - 4:30 pm. Evans 444. </li>
 <li> Discussion sessions: Every other week. Time and location TBA. </li>
 </ul>
 
