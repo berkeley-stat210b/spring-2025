@@ -29,7 +29,7 @@ This is an advanced graduate course on mathematical statistics, following up on 
 <li> We will use Ed (https://edstem.org/us/courses/73735/discussion) for discussions and questions. Use this link (https://edstem.org/us/join/PyDUgd) to join. </li>
 <li> Please submit HW using Gradescope (https://www.gradescope.com/courses/953916, code: WW73Y5). </li>
 <li> Please find homework and lecture notes on bCourse (https://bcourses.berkeley.edu/courses/1542128/) under “Files”. </li>
-<li> (It is not sure yet if there is Course Capture system in Evans 334) The lectures will be recorded through Course Capture. The recordings can be found on bCourse under “Media Gallery”. </li>
+<li> There is no course capture system in Evans 334. I will make an effort to record my lectures via Zoom and upload them to bCourse Files after class. However, please do not assume that recordings will be available for every lecture, and note that the quality of the recordings cannot be guaranteed. </li>
 </ol>
 
 
