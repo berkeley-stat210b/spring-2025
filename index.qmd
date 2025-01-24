@@ -14,7 +14,7 @@ listing:
 <ul>
 <li> Instructor: Song Mei (songmei [at] berkeley.edu) </li>
 <li> Lectures: Tuesday/Thursday 11:00 am - 12:30 am. Evans 334. </li>
-<li> Office Hours: Tuesday 1:30 pm - 3:00 pm. Evans 387. </li>
+<li> Office Hours: Tuesday 1:00 pm - 3:00 pm. Evans 387. </li>
 <li> GSI: Kaihao Jing (khjing [at] berkeley.edu) </li>
 <li> Office Hours: Monday 2:30 - 4:30 pm. Evans 444. </li>
 <li> Discussion sessions: Every other Monday, annouced through bCourse. Time: 10am to 11:30am. Location: Evans 330. </li>
