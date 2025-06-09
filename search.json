@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "crumbs": [
+      "License"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Statistics 210b: Theory of Statistics",
@@ -67,16 +77,6 @@
     "text": "Syllabus\nSyllabus can be found here (https://github.com/berkeley-stat210b/spring-2025/blob/main/Syllabus_STAT210B_Spring2025.pdf).",
     "crumbs": [
       "Home"
-    ]
-  },
-  {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
-    "section": "",
-    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
-    "crumbs": [
-      "License"
     ]
   }
 ]
