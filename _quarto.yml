@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  google-analytics: "G-TQWYRQFM3B"
   sidebar:
     style: docked
     title: "Stat 210b"
